@@ -1,11 +1,32 @@
 {
   "name": "@mustafagenc/timeline",
+  "description": "Angular timeline component for displaying events in a timeline format.",
   "version": "0.0.1",
+  "repository": "github:mustafagenc/timeline",
+  "keywords": [
+    "timeline",
+    "angular"
+  ],
+  "scripts": {
+    "build": "ng build --configuration production"
+  },
+  "private": false,
+  "author": {
+    "name": "Mustafa Genç",
+    "email": "eposta@mustafagenc.info",
+    "url": "https://mustafagenc.info"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mustafagenc/timeline/issues"
+  },
+  "homepage": "https://mg-timeline.vercel.app",
   "peerDependencies": {
     "@angular/common": "^19.2.0",
     "@angular/core": "^19.2.0"
   },
   "dependencies": {
+    "@mustafagenc/timeline": "^0.0.1",
     "tslib": "^2.3.0"
   },
   "sideEffects": false
