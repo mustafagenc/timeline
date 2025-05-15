@@ -1,0 +1,35 @@
+<div class="timeline-block {{ item().position }}">
+  <div
+    class="timeline-image"
+    [style]="{
+      background: item().icon.bgColor ?? '',
+      color: item().icon.textColor ?? '',
+      borderColor: item().icon.borderColor ?? ''
+    }"
+  >
+    <i [class]="'fa-solid ' + item().icon.icon"></i>
+  </div>
+  <div class="timeline-content {{ item().position }}">
+    <h2>{{ item().title }}</h2>
+    <p>{{ item().description }}</p>
+
+    @if (item().links) {
+    <ng-container
+      *ngTemplateOutlet="eventLinkContainer; context: { item: item() }"
+    ></ng-container>
+    }
+  </div>
+  <div class="date {{ item().position }}">
+    {{ item().date | date : dateFormat() : "" : language() }}
+  </div>
+</div>
+
+<ng-template #eventLinkContainer let-item="item">
+  <p>
+    @for (link of item.links; track link; let index = $index) {
+    <a [href]="link.url" target="_blank">
+      <i class="fa-solid fa-link"></i> {{ link.name }}
+    </a>
+    }
+  </p>
+</ng-template>

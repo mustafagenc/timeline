@@ -1,0 +1,172 @@
+@use "../../styles/global.scss";
+
+.timeline-block {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  clear: both;
+  margin-bottom: 40px;
+  align-items: center;
+  position: relative;
+
+  .timeline-image {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: var(--timeline-image-color);
+    background: var(--timeline-image-background-color);
+    z-index: 100;
+    border: 2px solid var(--timeline-image-border-color);
+    filter: drop-shadow(1pxpx 1px 3px #244a6e22);
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.03);
+    i {
+      font-size: 1.2em;
+    }
+  }
+
+  .timeline-content {
+    width: 50%;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    border: 1px solid #244a6e22;
+
+    &::before {
+      content: " ";
+      transform: translateY(-50%); /* Dikeyde ortala */
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); /* Dikeyde ortala */
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+    }
+
+    &.right {
+      margin-left: calc(50% + 36px); /* Çizginin sağında konumlan */
+      &::before {
+        right: calc(50% + -37px);
+        border-right: 8px solid #ffffff;
+        filter: drop-shadow(-1px 0px 0px #244a6e22);
+      }
+    }
+    &.left {
+      margin-right: calc(50% + 36px); /* Çizginin solunda konumlan */
+      &::before {
+        left: calc(50% + -37px);
+        border-left: 8px solid #ffffff;
+        filter: drop-shadow(1px 0px 0px #244a6e22);
+      }
+    }
+
+    h2 {
+      margin: 0;
+      color: #333;
+      font-size: 0.9em;
+      line-height: 0.9em;
+    }
+    p {
+      margin-bottom: 1px;
+      font-size: 0.8em;
+      color: #666;
+    }
+
+    a {
+      display: block;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .date {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 90; /* İkonun arkasında kalsın */
+    background: none;
+    color: #777;
+    font-size: 0.8em;
+    padding: 0;
+    white-space: nowrap; /* Tarihin tek satırda kalmasını sağlar */
+    /* Başlangıç konumu (çizginin hemen yanı) */
+    left: calc(50% + 25px); /* Sağa yakın başlangıç */
+
+    &.right {
+      right: calc(50% + 30px); /* İkonun solunda */
+      left: auto; /* Önceki left'i iptal et */
+      text-align: right;
+    }
+
+    &.left {
+      left: calc(50% + 30px);
+      right: auto; /* Önceki left'i iptal et */
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timeline-block {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .timeline-image {
+    position: absolute;
+    left: 20px !important;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #ccc;
+    z-index: 100;
+    i {
+      font-size: 1.2em;
+    }
+  }
+
+  .timeline-content {
+    width: 90%;
+    margin-left: 60px !important;
+    margin-right: 0 !important;
+
+    &.right {
+      &::before {
+        border-right: 0 !important;
+      }
+    }
+    &.left {
+      &::before {
+        border-left: 0 !important;
+      }
+    }
+
+    &::before {
+      content: "";
+      transform: translateY(-50%); /* Dikeyde ortala */
+      position: absolute;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-left: 8px solid transparent;
+      top: 20px !important;
+      left: calc(10% + 5px) !important;
+      border-right: 8px solid #244a6e22;
+      filter: drop-shadow(1px 0px 0px #244a6e22);
+      z-index: 9999 !important;
+    }
+  }
+
+  .date {
+    display: none;
+  }
+}

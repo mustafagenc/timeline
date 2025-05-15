@@ -1,0 +1,390 @@
+[
+  {
+    "title": "Güvenlik Kontrolü Yapılmalı",
+    "description": "Ekskavatör X'in güvenlik ekipmanları kontrol edilmeli. İş emri açılabilir.",
+    "date": "2012-07-22T14:30:00Z",
+    "icon": { "icon": "fa-shield", "bgColor": "lime", "textColor": "#333" },
+    "links": [
+      {
+        "name": "İş Emri Aç",
+        "url": "https://google.com"
+      },
+      {
+        "name": "İş Emrine Git",
+        "url": "https://google.com"
+      }
+    ],
+    "position": "left"
+  },
+  {
+    "title": "Arıza Kaydı",
+    "description": "Ekskavatör X'te küçük bir motor arızası kaydedildi.",
+    "date": "2018-03-05T09:00:00Z",
+    "icon": { "icon": "fa-bug", "bgColor": "red", "textColor": "#fff" },
+    "links": [
+      {
+        "name": "İş Emrine Git",
+        "url": "https://google.com"
+      }
+    ],
+    "position": "left"
+  },
+  {
+    "title": "Arıza Onarıldı",
+    "description": "Ekskavatör X'teki motor arızası onarıldı.",
+    "date": "2015-11-10T11:15:00Z",
+    "icon": { "icon": "fa-wrench", "bgColor": "green", "textColor": "#fff" },
+    "position": "right"
+  },
+  {
+    "title": "Yeni Proje Ataması",
+    "description": "Ekskavatör X, Gama projesine atandı.",
+    "date": "2023-09-01T16:45:00Z",
+    "icon": {
+      "icon": "fa-project-diagram",
+      "bgColor": "orange",
+      "textColor": "#333"
+    },
+    "position": "left"
+  },
+  {
+    "title": "Taşıma Hazırlığı",
+    "description": "Ekskavatör X'in yeni şantiyeye taşınması için hazırlık yapılıyor.",
+    "date": "2011-05-10T12:45:00Z",
+    "icon": {
+      "icon": "fa-shipping-fast",
+      "bgColor": "blue",
+      "textColor": "#fff"
+    },
+    "position": "right"
+  },
+  {
+    "title": "Şantiyeye Ulaşım",
+    "description": "Ekskavatör X, Gama şantiyesine ulaştı.",
+    "date": "2019-01-15T09:30:00Z",
+    "icon": { "icon": "fa-road", "bgColor": "gray", "textColor": "#fff" },
+    "position": "left"
+  },
+  {
+    "title": "Günlük Kontrol",
+    "description": "Ekskavatör X'in günlük kontrolleri yapıldı.",
+    "date": "2016-05-25T07:30:00Z",
+    "icon": { "icon": "fa-list", "bgColor": "lime", "textColor": "#333" },
+    "position": "right"
+  },
+  {
+    "title": "Hava Filtresi Değişimi Gerekli",
+    "description": "Ekskavatör X'in hava filtresinin değişimi gerekiyor. İş emri açılabilir.",
+    "date": "2024-06-05T16:15:00Z",
+    "icon": { "icon": "fa-wind", "bgColor": "brown", "textColor": "#fff" },
+    "links": [
+      {
+        "name": "İş Emrine Git",
+        "url": "https://google.com"
+      }
+    ],
+    "position": "left"
+  },
+  {
+    "title": "Proje İlerleme Raporu",
+    "description": "Ekskavatör X'in görev aldığı projenin ilerleme raporu oluşturuldu.",
+    "date": "2013-06-18T11:00:00Z",
+    "icon": {
+      "icon": "fa-chart-bar",
+      "bgColor": "silver",
+      "textColor": "#333"
+    },
+    "position": "left"
+  },
+  {
+    "title": "Yakıt Kontrolü",
+    "description": "Ekskavatör X'in yakıt seviyesi kontrol edildi.",
+    "date": "2020-07-01T08:15:00Z",
+    "icon": { "icon": "fa-tint", "bgColor": "black", "textColor": "#fff" },
+    "position": "right"
+  },
+  {
+    "title": "Yeni Operatör Tanıtımı",
+    "description": "Ekskavatör X'in yeni operatörü şantiyeye tanıtıldı.",
+    "date": "2017-07-12T13:45:00Z",
+    "icon": { "icon": "fa-users", "bgColor": "teal", "textColor": "#fff" },
+    "position": "left"
+  },
+  {
+    "title": "Hidrolik Yağ Seviyesi Kontrolü",
+    "description": "Ekskavatör X'in hidrolik yağ seviyesi kontrol edildi.",
+    "date": "2025-03-26T10:30:00Z",
+    "icon": { "icon": "fa-oil-can", "bgColor": "blue", "textColor": "#fff" },
+    "position": "right"
+  },
+  {
+    "title": "Şantiye Ziyareti",
+    "description": "Ekskavatör X'in bulunduğu şantiye yöneticiler tarafından ziyaret edildi.",
+    "date": "2010-08-08T14:00:00Z",
+    "icon": { "icon": "fa-building", "bgColor": "orange", "textColor": "#333" },
+    "position": "left"
+  },
+  {
+    "title": "Ekipman Devri",
+    "description": "Ekskavatör X, farklı bir ekibe devredildi.",
+    "date": "2021-08-22T09:00:00Z",
+    "icon": {
+      "icon": "fa-exchange-alt",
+      "bgColor": "purple",
+      "textColor": "#fff"
+    },
+    "position": "right"
+  },
+  {
+    "title": "Aydınlatma Kontrolü Gerekli",
+    "description": "Ekskavatör X'in aydınlatma sistemleri kontrol edilmeli. İş emri açılabilir.",
+    "date": "2014-09-03T17:15:00Z",
+    "icon": {
+      "icon": "fa-lightbulb",
+      "bgColor": "yellow",
+      "textColor": "#333"
+    },
+    "links": [
+      {
+        "name": "İş Emrine Git",
+        "url": "https://google.com"
+      }
+    ],
+    "position": "left"
+  },
+  {
+    "title": "Eğitim Tamamlandı",
+    "description": "Ekskavatör X operatörünün ileri düzey eğitimleri tamamlandı.",
+    "date": "2022-09-16T11:45:00Z",
+    "icon": {
+      "icon": "fa-certificate",
+      "bgColor": "indigo",
+      "textColor": "#fff"
+    },
+    "position": "left"
+  },
+  {
+    "title": "Lastik Basıncı Kontrolü",
+    "description": "Ekskavatör X'in lastik basınçları kontrol edildi.",
+    "date": "2018-09-29T08:30:00Z",
+    "icon": {
+      "icon": "fa-tachometer-alt",
+      "bgColor": "brown",
+      "textColor": "#fff"
+    },
+    "position": "right"
+  },
+  {
+    "title": "Sezonluk Bakım Hatırlatması",
+    "description": "Ekskavatör X için sezonluk bakım zamanı yaklaşıyor.",
+    "date": "2015-10-10T15:00:00Z",
+    "icon": { "icon": "fa-bell", "bgColor": "blue", "textColor": "#fff" },
+    "position": "left"
+  },
+  {
+    "title": "Bakım Talebi Oluşturuldu",
+    "description": "Ekskavatör X için sezonluk bakım talebi oluşturuldu.",
+    "date": "2023-10-23T10:00:00Z",
+    "icon": { "icon": "fa-tools", "bgColor": "green", "textColor": "#fff" },
+    "position": "right"
+  },
+  {
+    "title": "Bakım Onaylandı",
+    "description": "Ekskavatör X'in sezonluk bakım talebi onaylandı.",
+    "date": "2011-11-05T12:30:00Z",
+    "icon": { "icon": "fa-check", "bgColor": "teal", "textColor": "#fff" },
+    "position": "left"
+  },
+  {
+    "title": "Sezonluk Bakım Yapılıyor",
+    "description": "Ekskavatör X'in sezonluk bakımı gerçekleştiriliyor.",
+    "date": "2019-11-18T09:15:00Z",
+    "icon": { "icon": "fa-cogs", "bgColor": "orange", "textColor": "#333" },
+    "position": "right"
+  },
+  {
+    "title": "Sezonluk Bakım Tamamlandı",
+    "description": "Ekskavatör X'in sezonluk bakımı başarıyla tamamlandı.",
+    "date": "2016-11-29T16:45:00Z",
+    "icon": {
+      "icon": "fa-check-double",
+      "bgColor": "green",
+      "textColor": "#fff"
+    },
+    "position": "left"
+  },
+  {
+    "title": "Malzeme Teslimatı",
+    "description": "Yeni malzemeler şantiyeye ulaştı.",
+    "date": "2014-07-01T15:45:00Z",
+    "icon": { "icon": "fa-truck", "bgColor": "orange", "textColor": "#333" },
+    "position": "right"
+  },
+  {
+    "title": "Proje Tamamlandı",
+    "description": "Mevcut proje başarıyla tamamlandı.",
+    "date": "2016-10-01T17:00:00Z",
+    "icon": {
+      "icon": "fa-flag-checkered",
+      "bgColor": "green",
+      "textColor": "#fff"
+    },
+    "position": "right"
+  },
+  {
+    "title": "Yeni Görev Atandı",
+    "description": "Operatörlere yeni görevler atandı.",
+    "date": "2023-05-01T09:15:00Z",
+    "icon": { "icon": "fa-tasks", "bgColor": "blue", "textColor": "#fff" },
+    "position": "left"
+  },
+  {
+    "title": "Araç Bakımı",
+    "description": "Araçların rutin bakımı yapılıyor.",
+    "date": "2010-11-01T11:30:00Z",
+    "icon": {
+      "icon": "fa-screwdriver",
+      "bgColor": "gray",
+      "textColor": "#fff"
+    },
+    "position": "right"
+  },
+  {
+    "title": "Hava Durumu Uyarısı",
+    "description": "Kötü hava koşulları bekleniyor.",
+    "date": "2022-03-15T13:00:00Z",
+    "icon": {
+      "icon": "fa-cloud-sun",
+      "bgColor": "lightblue",
+      "textColor": "#333"
+    },
+    "position": "left"
+  },
+  {
+    "title": "Yakıt İkmali",
+    "description": "Araçlara yakıt ikmali yapıldı.",
+    "date": "2024-01-10T10:00:00Z",
+    "icon": { "icon": "fa-gas-pump", "bgColor": "black", "textColor": "#fff" },
+    "position": "left"
+  },
+  {
+    "title": "Ekipman Kontrolü",
+    "description": "Tüm ekipmanların kontrolleri tamamlandı.",
+    "date": "2011-08-01T14:30:00Z",
+    "icon": {
+      "icon": "fa-clipboard-check",
+      "bgColor": "green",
+      "textColor": "#fff"
+    },
+    "position": "right"
+  },
+  {
+    "title": "Kalite Kontrol",
+    "description": "Ürünlerin kalite kontrolü yapıldı.",
+    "date": "2016-03-01T09:00:00Z",
+    "icon": {
+      "icon": "fa-certificate",
+      "bgColor": "gold",
+      "textColor": "#333"
+    },
+    "position": "right"
+  },
+  {
+    "title": "Onarım Tamamlandı",
+    "description": "Ekipmanlardaki onarım işleri bitti.",
+    "date": "2017-12-01T16:15:00Z",
+    "icon": { "icon": "fa-hammer", "bgColor": "green", "textColor": "#fff" },
+    "position": "right"
+  },
+  {
+    "title": "Yedek Parça Siparişi",
+    "description": "Gerekli yedek parçalar sipariş edildi.",
+    "date": "2025-02-01T08:15:00Z",
+    "icon": {
+      "icon": "fa-puzzle-piece",
+      "bgColor": "orange",
+      "textColor": "#333"
+    },
+    "position": "left"
+  },
+  {
+    "title": "Motor Yağı Değişimi",
+    "description": "Ekskavatör X'in motor yağı değişimi yapıldı.",
+    "date": "2025-06-15T08:30:00Z",
+    "icon": { "icon": "fa-oil-can", "bgColor": "brown", "textColor": "#fff" },
+    "position": "left"
+  },
+  {
+    "title": "Kova Dişleri Kontrolü",
+    "description": "Ekskavatör X'in kova dişleri kontrol edildi ve aşınanlar değiştirildi.",
+    "date": "2025-07-01T09:45:00Z",
+    "icon": { "icon": "fa-tools", "bgColor": "gray", "textColor": "#fff" },
+    "position": "right"
+  },
+  {
+    "title": "Hidrolik Hortum Değişimi",
+    "description": "Ekskavatör X'in yıpranan hidrolik hortumları değiştirildi.",
+    "date": "2025-07-15T10:15:00Z",
+    "icon": { "icon": "fa-wrench", "bgColor": "red", "textColor": "#fff" },
+    "position": "left"
+  },
+  {
+    "title": "Paletlerin Kontrolü",
+    "description": "Ekskavatör X'in paletleri kontrol edildi, gergi ayarı yapıldı.",
+    "date": "2025-08-01T07:30:00Z",
+    "icon": { "icon": "fa-cog", "bgColor": "black", "textColor": "#fff" },
+    "position": "right"
+  },
+  {
+    "title": "Kabin Kliması Bakımı",
+    "description": "Ekskavatör X'in kabin kliması bakımdan geçirildi.",
+    "date": "2025-08-15T13:00:00Z",
+    "icon": { "icon": "fa-snowflake", "bgColor": "blue", "textColor": "#fff" },
+    "position": "left"
+  },
+  {
+    "title": "Akü Değişimi",
+    "description": "Ekskavatör X'in aküsü yenisiyle değiştirildi.",
+    "date": "2025-09-01T08:45:00Z",
+    "icon": {
+      "icon": "fa-car-battery",
+      "bgColor": "purple",
+      "textColor": "#fff"
+    },
+    "position": "right"
+  },
+  {
+    "title": "Yakıt Filtresi Değişimi",
+    "description": "Ekskavatör X'in yakıt filtreleri değiştirildi.",
+    "date": "2025-09-15T11:30:00Z",
+    "icon": { "icon": "fa-filter", "bgColor": "orange", "textColor": "#333" },
+    "position": "left"
+  },
+  {
+    "title": "Şanzıman Yağı Kontrolü",
+    "description": "Ekskavatör X'in şanzıman yağı seviyesi kontrol edildi.",
+    "date": "2025-10-01T09:15:00Z",
+    "icon": { "icon": "fa-oil-can", "bgColor": "green", "textColor": "#fff" },
+    "position": "right"
+  },
+  {
+    "title": "Bom Silindiri Tamiri",
+    "description": "Ekskavatör X'in bom silindirinde tespit edilen kaçak onarıldı.",
+    "date": "2025-10-15T14:30:00Z",
+    "icon": { "icon": "fa-tools", "bgColor": "red", "textColor": "#fff" },
+    "links": [
+      {
+        "name": "Tamir Raporu",
+        "url": "https://google.com"
+      }
+    ],
+    "position": "left"
+  },
+  {
+    "title": "Çalışma Saati Bakımı",
+    "description": "Ekskavatör X 1000 çalışma saati bakımı yapıldı.",
+    "date": "2025-11-01T08:00:00Z",
+    "icon": { "icon": "fa-clock", "bgColor": "teal", "textColor": "#fff" },
+    "position": "right"
+  }
+]

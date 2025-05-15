@@ -1,0 +1,12 @@
+<section id="timeline">
+  <div class="timeline-year">2025</div>
+  <timeline-event
+    *ngFor="let item of getItems()"
+    [item]="item"
+    [dateFormat]="dateFormat()"
+    [language]="language()"
+  ></timeline-event>
+  <div class="timeline-start">
+    <div class="timeline-image"><i class="fa fa-home"></i></div>
+  </div>
+</section>
