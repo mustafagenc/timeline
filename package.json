@@ -10,7 +10,7 @@
     "build-lib": "ng build @mustafagenc/timeline --configuration development",
     "build-lib-watch": "ng build @mustafagenc/timeline --configuration development --watch"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^19.1.0",
     "@angular/common": "^19.1.0",
